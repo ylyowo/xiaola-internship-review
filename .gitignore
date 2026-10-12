@@ -31,3 +31,5 @@ private/
 # pnpm-specific local configuration; deployment uses npm
 pnpm-workspace.yaml
 pnpm-lock.yaml
+
+/上传到GitHub.command
