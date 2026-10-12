@@ -1,0 +1,33 @@
+node_modules/
+dist/
+*.tsbuildinfo
+.DS_Store
+
+# Private source records and internal documentation (never publish)
+*.md
+!README.md
+!DEPLOYMENT.md
+**/PRD*/
+**/prd*/
+internal/
+private/
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local tools, caches, and preview captures
+.pnpm-store/
+启动网站.command
+/*-preview.jpg
+/editorial-*.jpg
+/refined-*.jpg
+
+# pnpm-specific local configuration; deployment uses npm
+pnpm-workspace.yaml
+pnpm-lock.yaml
